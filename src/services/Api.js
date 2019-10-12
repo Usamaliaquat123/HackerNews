@@ -11,9 +11,8 @@ const Api = {
     },
 
 
-    topStoriesIds : topstories => {
-        return Api._call('topstories',{})
-    }
+    topStoriesIds : topstories => {return Api._call('topstories',{})}
+    
 
     
 }

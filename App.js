@@ -23,11 +23,15 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Timeline from './src/containers/Timeline/Timeline';
+// import Navigator from './src/Navigations/Navigator';
+// import AppNav from './src/Navigations/AppNavigationtion';
+// import AppNavi from './src/Navigations/AppNavigation';
 
 const App: () => React$Node = () => {
   return (
     <>
-    <Usama />
+    <Timeline />
     </>
   );
 };
